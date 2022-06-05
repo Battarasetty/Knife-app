@@ -1,0 +1,75 @@
+.home {
+  // display: flex;
+  flex: 9;
+
+  .dengy {
+    display: flex;
+
+
+    .twice {
+      flex: 1;
+      border-right: 0.5px solid rgb(230, 227, 227);
+      // min-height: 100vh;
+      background-color: white;
+      display: flex;
+    }
+
+    .divide {
+      flex: 8;
+      position: relative;
+
+      .fod {
+        position: absolute;
+        top: 105px;
+        left: 30px;
+      }
+
+      .homecontainer {
+        flex: 7;
+
+        .search {
+          display: flex;
+          align-items: center;
+          padding: 3px;
+          background-color: #F7F7FC;
+          margin-left: 39px;
+          border-bottom-left-radius: 10px;
+          border-top-left-radius: 10px;
+          margin-top: 25px;
+          height: 25px;
+
+          .outline {
+            color: #92929D;
+            font-size: 15px;
+          }
+
+          input {
+            border: none;
+            outline: none;
+            background: transparent;
+            font-size: 10px;
+
+          }
+        }
+      }
+
+      .fod1 {
+        position: absolute;
+        top: 550px;
+        left: 25px;
+      }
+
+      .widgets {
+        display: flex;
+        padding: 40px;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+
+        .diff {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}

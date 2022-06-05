@@ -1,0 +1,44 @@
+.new {
+    flex: 9;
+
+    .dengy2 {
+        display: flex;
+
+        .twice2 {
+            flex: 1;
+            border-right: 0.5px solid rgb(230, 227, 227);
+            // min-height: 100vh;
+            background-color: white;
+            display: flex;
+        }
+
+        .newcontainer {
+            flex: 8;
+
+            .search1 {
+                display: flex;
+                align-items: center;
+                padding: 3px;
+                background-color: #F7F7FC;
+                margin-left: 39px;
+                border-bottom-left-radius: 10px;
+                border-top-left-radius: 10px;
+                margin-top: 25px;
+                height: 25px;
+
+                .outline {
+                    color: #92929D;
+                    font-size: 15px;
+                }
+
+                input {
+                    border: none;
+                    outline: none;
+                    background: transparent;
+                    font-size: 10px;
+
+                }
+            }
+        }
+    }
+}
